@@ -1,3 +1,5 @@
+// A template for the dashboard
+
 <a href="<?php echo $_SERVER["REQUEST_URI"];?>">Refresh</a>
 <br></br>
 <br></br>
