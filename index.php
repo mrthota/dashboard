@@ -62,7 +62,7 @@ array('Local', 'localhost:9200', 9200,'e5admin'),
 
 $redis_servers = array(
   array('QA1', 'ccliqae1.homedepot.com', 6379),
-  array('QP1', 'cclidif0.homedepot.com', 6379),
+  array('QP1', 'cmqprs00.homedepot.com', 10001),
   array('QP2', 'cclidif1.homedepot.com', 6379),
   array('QP3', 'cclidif2.homedepot.com', 6379),
   array('PR1', 'cclidie0.homedepot.com', 6379),
