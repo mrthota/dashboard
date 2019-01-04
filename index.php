@@ -54,21 +54,15 @@ $pr_servers = array(
   array('Local', 'localhost:9200', 9200,'e5admin'),
   array('Local', 'localhost:9200', 9200,'e5admin'),
   array('Local', 'localhost:9200', 9200,'e5admin'),
-array('Local', 'localhost:9200', 9200,'e5admin'),
-array('Local', 'localhost:9200', 9200,'e5admin'),
-array('Local', 'localhost:9200', 9200,'e5admin'),
-array('Local', 'localhost:9200', 9200,'e5admin'),
+
 );
 
 $redis_servers = array(
-  array('QA1', 'ccliqae1.homedepot.com', 6379),
-  array('QP1', 'cmqprs00.homedepot.com', 10001),
-  array('QP2', 'cclidif1.homedepot.com', 6379),
-  array('QP3', 'cclidif2.homedepot.com', 6379),
-  array('PR1', 'cclidie0.homedepot.com', 6379),
-  array('PR2', 'cclidie1.homedepot.com', 6379),
-  array('PR3', 'cclidie2.homedepot.com', 6379),
-  array('Local', 'localhost', 6379),
+  array('QA', 'ccliqae1.homedepot.com', 6379),
+  array('QP-A', 'com-redis-sa-qp-atc.homedepot.com', 10001),
+  array('QP-S', 'com-redis-sa-qp-ssc.homedepot.com', 10001),
+  array('PR-A', 'com-redis-sa-pr-atc.homedepot.com', 10001),
+  array('PR-S', 'com-redis-sa-pr-ssc.homedepot.com', 10001),
 
 );
 
