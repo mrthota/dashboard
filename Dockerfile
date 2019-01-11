@@ -5,6 +5,6 @@ RUN pecl install redis-4.0.1 \
     
 RUN apt-get update && apt-get install -y vim && apt-get install -y iputils-ping
 
-COPY ./www/ /var/www/html/
+COPY ./index.php /var/www/html/
 
 EXPOSE 80
